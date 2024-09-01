@@ -22,7 +22,7 @@ export const QuizExam = () => {
       (async () => {
         try {
           const response = await axios.get(
-            `https://quizzie-app-0bl5.onrender.com/api/quiz/getaquiz/${id}`
+            `https://quizzie-ojx9.onrender.com/api/quiz/getaquiz/${id}`
           );
           setquizData(response.data);
           setQuestions(response.data.questions);
@@ -34,7 +34,7 @@ export const QuizExam = () => {
       (async () => {
         try {
           await axios.patch(
-            `https://quizzie-app-0bl5.onrender.com/api/quiz/impression/${id}`
+            `https://quizzie-app-0bl5.on.com/api/quiz/impression/${id}`
           );
         } catch (error) {
           console.log(error);
@@ -82,7 +82,7 @@ export const QuizExam = () => {
 
     try {
       await axios.patch(
-        `https://quizzie-app-0bl5.onrender.com/api/quiz/result/${quizId}`,
+        `https://quizzie-ojx9.onrender.com/api/quiz/result/${quizId}`,
         Questions
       );
     } catch (error) {

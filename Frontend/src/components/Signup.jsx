@@ -77,7 +77,7 @@ const Signup = () => {
         try {
             setisLoading(true);
             const response = await axios.post(
-                "https://quizzie-app-0bl5.onrender.com/api/auth/signup",
+                "https://quizzie-ojx9.onrender.com/api/auth/signup",
                 formData
             );
 
