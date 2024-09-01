@@ -34,7 +34,7 @@ export const QuizExam = () => {
       (async () => {
         try {
           await axios.patch(
-            `https://quizzie-app-0bl5.on.com/api/quiz/impression/${id}`
+            `https://quizzie-teal.vercel.app/api/quiz/impression/${id}`
           );
         } catch (error) {
           console.log(error);

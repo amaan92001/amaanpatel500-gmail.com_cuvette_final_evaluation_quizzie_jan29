@@ -264,7 +264,7 @@ const QuestionsPopup = ({
         setcreatequizPopup(false);
         setlinkId(
           // `https://quizzie-app-4623f.web.app/${response.data.newquiz._id}`
-          `https://quizzie-app-4623f.web.app/quizexam/${response.data.newquiz._id}`
+          `https://quizzie-teal.vercel.app/quizexam/${response.data.newquiz._id}`
         );
       }
     } catch (error) {
@@ -324,7 +324,7 @@ const QuestionsPopup = ({
         setcreatequestionsPopup(false);
         setsharePopup(true);
         setlinkId(
-          `https://quizzie-app-4623f.web.app/quizexam/${response.data.editedquiz._id}`
+          `https://quizzie-teal.vercel.app/quizexam/${response.data.editedquiz._id}`
         );
       }
     } catch (error) {
